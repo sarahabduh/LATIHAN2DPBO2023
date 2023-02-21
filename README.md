@@ -15,9 +15,9 @@ Kelas-kelas dalam program ini dibuat dalam file terpisah, meliputi:
    - asal_universitas (string) 
    - email_edu (char)
 
-Pada program ini, diterapkan konsep Multi-level Inheritance dimana kelas Mahasiswa diturunkan dari kelas Human dan kelas SivitasAkademik diturunkan dari kelas Mahasiswa. Multi-level Inheritance dapat diterapkan karena kelas-kelas tersebut memiliki atribut yang sama.
+Pada program ini, diterapkan konsep Multi-level Inheritance dimana kelas SivitasAkademik mewarisi atribut kelas Human karena merupakan manusia, dan kelas Mahasiswa mewarisi atribut dari kelas SivitasAkademik karena mahasiswa termasuk dalam SivitasAkademik namun tidak semua SivitasAkademik adalah mahasiswa. Multi-level Inheritance dapat diterapkan karena antara kelas-kelas tersebut memiliki atribut yang sama.
 
 ### [Screenshot Hasil Program] 
-**Java**
+**Python**
 
-![](../main/Latihan2java/Screenshot/SS_Latihan2Java.png)
+![](../main/Python/Screenshot/SS_Output.png)
